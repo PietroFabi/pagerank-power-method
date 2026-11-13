@@ -41,6 +41,8 @@ On the Hollins crawl the sparse power method gives the same ranking as the dense
 
 ## Running it
 
+Requires **Python 3.12 or newer** (the ranking tables use f-string syntax introduced in 3.12).
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook
@@ -48,7 +50,9 @@ jupyter notebook
 
 Open `PageRank_Implementation.ipynb` and run the cells in order, from the folder that contains `hollins.dat`.
 
-The last section of the notebook generates `large_web_graph.dat` (a random web of 900,000 pages, roughly 90 MB). It is created locally when you run the cell and is deliberately not stored in this repository.
+The last section of the notebook generates `large_web_graph.dat` (a random web of 900,000 pages, roughly 90 MB). It is created locally when you run the cell and is deliberately not stored in this repository; `.gitignore` keeps it out.
+
+The power method's progress message was translated from Italian to English after the notebooks were run, so the saved outputs still show *"Convergenza raggiunta all'iterazione N"* ("converged at iteration N").
 
 ## References
 

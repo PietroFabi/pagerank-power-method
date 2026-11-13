@@ -1,2 +1,2 @@
-numpy
-notebook
+numpy>=1.26
+notebook>=7.0
